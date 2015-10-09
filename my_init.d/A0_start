@@ -1,6 +1,6 @@
 #!/bin/sh
 if [ -z "$AGORA_PLANNER_VERSION" ]; then    
-    /usr/lib/agora/.env/bin/pip install --upgrade Agora-Planner
+    /usr/lib/agora/.env/bin/pip install --upgrade --pre Agora-Planner
 else
 	/usr/lib/agora/.env/bin/pip install --upgrade Agora-Planner==$AGORA_PLANNER_VERSION
 fi  
